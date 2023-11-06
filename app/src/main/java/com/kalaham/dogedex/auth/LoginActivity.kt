@@ -14,7 +14,7 @@ class LoginActivity : AppCompatActivity(), LoginFragment.LoginFragmentActions {
     }
 
     override fun onRegisterButtonClick() {
-        findNavController(R.navigation.auth_nav_graph)
-            .navigate(LoginFragmentDirections)
+        //findNavController(R.navigation.auth_nav_graph)
+            //.navigate(LoginFragmentDirections)
     }
 }

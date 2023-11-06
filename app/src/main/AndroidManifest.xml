@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.kalaham.dogedex">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,7 +16,7 @@
         android:theme="@style/Theme.DogeDex"
         tools:targetApi="31">
         <activity
-            android:name=".doglist.DogListActivity"
+            android:name=".auth.LoginActivity"
             android:exported="true" >
 
             <intent-filter>
@@ -27,9 +27,15 @@
 
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".dogdetail.DogDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doglist.DogListActivity"
+            android:exported="false">
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

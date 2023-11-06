@@ -12,4 +12,4 @@ class DogDTO (val id: Long,
               @field:Json(name = "life_expectancy") val lifeExpectancy: String,
               val temperament: String,
               @field:Json(name = "weight_female") val weightFemale: String,
-              @field:Json(name = "height_male") val weightMale: String)
+              @field:Json(name = "weight_male") val weightMale: String)
